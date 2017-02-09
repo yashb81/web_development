@@ -1,5 +1,5 @@
 body{
-    background-color: #ffffe6;
+    background-color:#ffffe6;
 }
 .header{
     position: fixed;
@@ -41,4 +41,11 @@ body{
     font:          normal 700 13px/1 "Calibri", sans-serif;
     text-align:    center;
     text-shadow:   1px 1px 0 #000;
+}
+.verticalLine {
+    height:100px;
+    width:0px;
+    position:relative;
+    border-left:1px solid gray;
+    margin-left: 50px;
 }
